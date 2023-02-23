@@ -223,6 +223,11 @@ h5{
 span{
   padding-right: 10px;
 }
+span2{
+  color: white;
+  padding-right: 10px
+  font-size: 12px;
+}
 .contact-list p{
 }
 .email-contact{
@@ -430,5 +435,11 @@ padding: 0;
   p{
       font-size: 12px;
   }
+  div.scroll {
+        width: 600px;
+        height: 150px;
+        text-align: justify;
+        padding: 20px;
+      }
   
 }
