@@ -141,7 +141,7 @@ flex-wrap: wrap;
 }
 .game-store-list{
   width:300px;
-  height: 350px;
+  height: 480px;
   margin: 20px;
   overflow: hidden;
   Overflow-y:scroll;
@@ -159,8 +159,8 @@ flex-wrap: wrap;
 
 .improve-img-list{
   display: flex;
-  width:900px;
-  height:240px;
+  width:980px;
+  height:320px;
   margin: auto;
   overflow: hidden;
   border-top: none;
