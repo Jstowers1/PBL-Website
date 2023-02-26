@@ -1,3 +1,4 @@
+//lol
 document.querySelectorAll(".carousel").forEach((carousel) => {
   const items = carousel.querySelectorAll(".carousel__item");
   const buttonsHtml = Array.from(items, () => {
