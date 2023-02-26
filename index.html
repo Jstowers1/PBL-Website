@@ -9,18 +9,54 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>The Apple STEM</title>
+      <style>
+        div.science{
+          background-color: rgba(255, 75, 255, 0.1);
+        }
+      </style>
+      <style>
+        div.improvments{
+          background-color: rgba(255, 75, 255, 0.1);
+          text-align: center;
+        }
+      </style>
+      <style = "imageScroll">
+        /* width */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 10px;
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: red; 
+        border-radius: 10px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #b30000; 
+      }
+      </style>
 </head>
+
 <body>
+  <script src="myscripts.js"></script> 
   <header style="position: relative;">
 
     <div class="w3-top" class="header" id="home">
       <div class="w3-bar  w3-card w3-left-align w3-large heeder-large-screen" style="background-color: #000015;" >
         <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-black w3-large " href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-        <a href="#home" class="w3-bar-item w3-button w3-padding-large  w3-hover-black">Mini-Boss</a>
+        <a href="#home" class="w3-bar-item w3-button w3-padding-large  w3-hover-black">The iPhone 2G</a>
         <div >
-          <a href="#games" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black"> About Us </a>
-          <a href="#shop" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Science</a>
-          <a href="#events" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Math</a>
+          <a href="#science" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Science</a>
+          <a href="#math" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Math</a>
+          <a href="#improve" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Improvments</a>
           <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Citations</a>
         </div>
     
@@ -28,9 +64,9 @@
 
       <!-- Navbar on small screens -->
       <div id="navDemo" class="w3-bar-block  w3-hide w3-hide-large w3-hide-medium w3-large">
-        <a href="#games" class="w3-bar-item w3-button w3-padding-large"onclick="myFunction()">About Us</a>
-        <a href="#shop" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Science </a>
-        <a href="#events" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Math</a>
+        <a href="#science" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Science </a>
+        <a href="#math" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Math</a>
+        <a href="#improve" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Improvments</a>
         <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Citations</a>
       </div>
     </div>
@@ -51,140 +87,149 @@
          </div>
       </section>
       <main style="padding-bottom:40px ;">
-        <h2 class="title" id="games">Who We Are</h2>
-        <div class="games">
-          <div class="game-list">
-            <img src="biniyam.png" alt="Johnathan Stowers" style="width:150px; height: 175px;"/ >
-            <span2>Biniyam Gebrezgi <br>Team Leader</span2>
-         
-          <p></p>
-          </div>
-          <div class="game-list">
-              <img src="./boar.png" alt="pacman" style="width:100px; height: 100px;"/>
-            <h3>Daniel Quijano - Resource Manager</h3>
-            <p></p>
-          </div>
-          <div class="game-list">
-              <img src="johnathan.png" alt="Johnathan Stowers" style="width:150px; height: 200px;"/>
-            <h3>Johnathan Stowers - Technology</h3>
-            <p></p>
-          </div>
-          <div class="game-list">
-              <img src="moham.png" alt="monster" style="width:150px; height: 200px;"/>  
-            <h3>Mohammed Khan - Math Manager </h3>
-             <p></p>
-          </div>
-          <div class="game-list">
-            <img src="./boar.png" alt="joker" style="width:100px; height: 100px;"/ >
-          <h3>Beckett Eaton - Time Manager</h3>
-          <p></p>
-          </div>
-          <div class="game-list">
-              <img src="./boar.png" alt="halloween" style="width:100px; height: 100px;"/>
-            <h3>Sebastion Pope - Science Manager</h3>
-            <p></p>
-          </div>
-          
-        
-        </div>
-        <div class="store" id="shop">
-         <h2 class="title">THE SCIENCE</h2>
-        
+        <h2 class="title">THE SCIENCE</h2>
+        <div class="science" id="science">
+          <div class><h1 class="sci-title">FORMS OF ENERGY, CONNECTIVITY, AND PROTECTION IN THE IPHONE.</h1></div>
         <div class="game-store">
-
+          
           <div class="game-store-list">
             <div class="game-image">
-              <img src="./boar.png" alt="Photo by Katharina Gloth | Unsplash"/>
+              <img src="./lithiumBat.png"/>
             </div>
+            <br>
+            <br>
             <div class="store-text-description">
              <h4>Lithium Battery</h4>
              <span>Converting chemical energy to electrical. </span>
-             <span><marquee>Lithium batteries are light-weight, energy dense batteries that make them ideal for portable devices with a longer battery life.</marquee></span>
+             <div class = "scroll">Lithium batteries are light-weight, energy dense batteries that make them ideal for portable devices with a longer battery life.</div>
             </div>
 
           </div>
           <div class="game-store-list">
             <div class="game-image">
-              <img src="./boar.png" alt="Photo by Maverick Timotius | Unsplash"/>
+              <img src="./accSens.png"/>
             </div>
             <div class="store-text-description">
               <h4>Accelerometer Sensors</h4>
               <span> Detercting motion using acceleration. </span>
-              <span><marquee>By detecting motion on three different axies, allowing a digial representation of a direction and magnitude of any motion.</marquee></span>
+              <span>By detecting motion on three different axies, allowing a digial representation of a direction and magnitude of any motion.</span>
             </div>
 
           </div>
           <div class="game-store-list">
             <div class="game-image">
-              <img src="./boar.png" alt="Photo by Emiliano Cicero | Unsplash"/>
+              <img src="./proxSens.png"/>
             </div>
             <div class="store-text-description">
               <h4>Proximity Sensors</h4>
-              <span> Detecting objects without touch. </span>
-              <span><marquee>By using proximity sensors, the iPhone is able to be controled without any touch. This allows users to pickup calls by just putting the phone close to their face.</marquee></span>
+              <span> Sensors that can detect input without touch. </span>
+              <span>By using proximity sensors, the iPhone is able to be controled without any touch. This allows users to pickup calls by just putting the phone close to their face.</span>
             </div>
 
           </div>
           <div class="game-store-list">
             <div class="game-image">
-              <img src="./boar.png"  alt="Photo by wu yi | Unsplash"/>
+              <img src="./gps.png"/>
             </div>
             <div class="store-text-description">
               <h4>GPS Navigation</h4>
               <span> Using satelites to position the iPhone. </span>
-              <span><marquee>By connecting to satelities in Earth's orbit, the iPhone is able to position itself on Earth's surface. This allows the iPhone to naivgate it's users across the world.</marquee></span>
+              <span>By connecting to satelities in Earth's orbit, the iPhone is able to position itself on Earth's surface. This allows the iPhone to naivgate it's users across the world.</span>
             </div>
 
           </div>
           <div class="game-store-list">
             <div class="game-image">
-              <img src="./boar.png" alt="Photo by Alienware | Unsplash"/>
+              <img src="./screen.png" alt="Photo by Alienware | Unsplash"/>
             </div>
             <div class="store-text-description">
               <h4>Ceramnic Shield</h4>
               <span> Growing nanocrystles for stronger glass. </span>
-              <span><marquee>In order to give the iPhone it's remarcably strong screen, ceramnic nanocrystles were grown in the glass for extra durability.</marquee></span>
+              <span>In order to give the iPhone it's remarcably strong screen, ceramnic nanocrystles were grown in the glass for extra durability.</span>
             </div>
           </div>
 
         </div>
       </div>
-      <div class="event" id="events" >
+      <div class="math" id="math" >
         <h2 class="title">Mathmatics</h2>
 
         <div class="event-hero" style="position: relative; ">
-          
-
           <div class="event-text">
-            <h2  class="badge" style=" background-color: orange; color:#000015 ;padding:10px"> Spiderman challenge | Sunday February 6 </h2>
-             <h1 class="event-title">A world light-years beyond your imagination.</h1>
+            
+             <h1 class="event-title">SINUSUDIAL MOTION IN THE IPHONE.</h1>
   
              
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus earum omnis qui nobis a veritatis deserunt aspernatur vero corporis ipsa architecto, sapiente odit mollitia distinctio ut reprehenderit esse ad libero!</p>
-              <h4>Save your place</h4>
-              <div>
-                <label id="icon" for="name">Name</label>
-                <br>
-                <input type="text" name="name" id="name" placeholder="Name" required/>
-                <br>
-                <br>
-                <label id="icon" for="name">Email</label>
-                <br>
-                <input type="text" name="name" id="name" placeholder="Email" required/>
-                
-              </div>
-              <button class="w3-btn w3-red w3-margin-top w3-round">Register</button>
-                
+              <p>When using any scrollbar in the iPhone, sinusudial motion is applied. At the start of the scroll, the speed of the scrollbar is at it's absolute lowest, but it slowly starts rising. Once at the apex of force, and where you would let go, the scrollbar is at it's highest point of speed. After the release, due to the momentum the scrollbar continues going, but slowly slows down, until reaching equlibrium at rest once more. </p>
+              <h4>Don't believe us? Try it out on this website! This monitor is a touchscreen!</h4>
+              <br>
+              <p>The motion of this scrollbar can be perfectly represented by speed-over-time sinusudial graph. An example is provided on the right of this paragraph.</p>
           </div>
-          <div class="event-image">
-            <img src="./sinFunction.gif" alt="erik-mclean"/>
-            <span2>x axis - time</span2>
-            <br>
-            <span2>y axis - speed</span2>
+          <div class="image">
+            <img style = "vertical-align: baseline;"src = "./sinFunction.gif"/>
+            <figcaption><span2>X axis - Time  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Y axis - Speed</span2></figcaption>
           </div>
-          
         </div>
 
+      </div>
+
+
+      <div class="improve" id="improve">
+        <h2 class = "title">Our improvments</h2>
+        <div class = "improvments">
+          <div class><h1 class="sci-title">WAYS TO IMPROVE THE IPHONE.</h1></div>
+          <div class = "carousel"> 
+
+            <div class="carousel__item carousel__item--selected">
+              <div class = "improve-img-list">
+                <div>
+                  <iHead>Solid-state Batteries</iHead>
+                </div>
+                <div class="improve-img">
+                  <img style = "vertical-align: middle;" src="./boar.png"/>
+                </div>
+                <div class="improve-img">
+                  <span4>A Solid-state Battery has absolutely no liquid in it, compared to a lithium-ion battery. This means that a Solid-state Battery is able to have an increased battery density, at a lower price, and at a lower risk of damage. Solid-state Batteries are currently in development to be commericalized to be put in our devices, but working models have existed since at least 2013.</span4>
+                </div>
+                </div>
+            </div>
+
+            <div class="carousel__item">
+              <div class = "improve-img-list">
+                <div>
+                  <iHead>Saphire Shield Glass</iHead>
+                </div>
+                <div class="improve-img">
+                  <img style = "vertical-align: middle;" src="./boar.png"/>
+                </div>
+                <div class="improve-img">
+                  <span4>saphire :)</span4>
+                </div>
+                </div>
+            </div>
+
+            <div class="carousel__item">
+              <div class = "improve-img-list">
+                <div>
+                  <iHead>Optical Cameras</iHead>
+                </div>
+                <div class="improve-img">
+                  <img style = "vertical-align: middle;" src="./boar.png"/>
+                </div>
+                <div class="improve-img">
+                  <span4>camera :)</span4>
+                </div>
+                </div>
+            </div>
+
+            <div class="carousel__nav">
+              <span class = "carousel__button carousel__button--selected"></span>
+              <span class = "carousel__button"></span>
+              <span class = "carousel__button"></span>
+            </div>
+
+          </div>           
+        </div>
       </div>
       <div>
 

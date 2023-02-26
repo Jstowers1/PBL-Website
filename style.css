@@ -5,10 +5,7 @@
 }
 
 /*Extra Large screens - Extra large desktops*/
-.header{
-  
 
-}
 .heeder-large-screen{
   display: flex !important;
   justify-content: space-evenly !important;
@@ -136,7 +133,6 @@ flex-wrap: wrap;
 .game-image{
   width:300px;
   height: 180px;
-  
 }
 .game-image img{
   width:100%;
@@ -145,11 +141,13 @@ flex-wrap: wrap;
 }
 .game-store-list{
   width:300px;
-  height: 300px;
-   margin: 20px;
+  height: 350px;
+  margin: 20px;
   overflow: hidden;
+  Overflow-y:scroll;
   border-top: none;
-  
+  Height:200px;
+    
     -webkit-box-shadow: 0 8px 40px 0 rgba(45, 57, 231, 0.37);
             box-shadow: 0 8px 40px 0 rgba(45, 57, 231, 0.37);
   backdrop-filter: blur( 4px );
@@ -158,6 +156,75 @@ flex-wrap: wrap;
   color:white;
    
 }
+
+.improve-img-list{
+  display: flex;
+  width:900px;
+  height:240px;
+  margin: auto;
+  overflow: hidden;
+  border-top: none;
+    -webkit-box-shadow: 0 8px 40px 0 rgba(45, 57, 231, 0.37);
+            box-shadow: 0 8px 40px 0 rgba(45, 57, 231, 0.37);
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-bottom: 1px solid blueviolet;
+  color:white;
+  padding-bottom: 20px;
+}
+.improve-img{
+  margin-top: 20px;
+  inline-size: 50px;
+  overflow-wrap: break-word;
+  flex: 50%;
+}
+iHead{
+  margin-top: 20px;
+  writing-mode: vertical-rl;
+  color: white;
+  font-size: 25px;
+  text-orientation: sideways;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel__item {
+  height: 300px;
+
+  padding: 1em;
+  display: none;
+}
+
+.carousel__item--selected {
+  display: block;
+}
+
+.carousel__nav {
+  width: 100%;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+.carousel__button {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.carousel__button--selected {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+
 .store-text-description{
    
 padding-left:20px;
@@ -179,7 +246,6 @@ h4{
   margin-top: 50px;
   border:1px solid black;
   border-radius: 10px;
-  
 }
 .event-text{
   width:50%;
@@ -187,12 +253,22 @@ h4{
 
 }
 .event-title{
+  
+  color: orange;
+  font-size: 40px;
+  text-transform: uppercase;
+
+  
+  
+
+}
+.sci-title{
+  margin-left: 50px;
+  color: orange;
   font-size: 40px;
   text-transform: uppercase;
 
   font-weight: 600;
-  
-
 }
 .event-image{
   width:400px;
@@ -225,17 +301,26 @@ span{
 }
 span2{
   color: white;
-  padding-right: 10px
+  padding-right: 10px;
   font-size: 12px;
 }
-.contact-list p{
-}
+
 .email-contact{
   width:80%;
   color: gray;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+span3{
+  color: white;
+  font-size: 25px;
+}
+span4{
+  color: white;
+  font-size: 15px;
+  word-wrap: normal;
 }
 
 
@@ -327,11 +412,20 @@ padding: 0;
       font-size: 13px;
   }
   .event-title{
+      color: orange;
       font-size: 30px;
       text-transform: uppercase;
       font-weight: 600;
   
 
+  }
+  .sci-title{
+    margin-left: 50px;
+    color: orange;
+    font-size: 40px;
+    text-transform: uppercase;
+  
+    
   }
   .event-hero{
       width: 80% ;
@@ -403,6 +497,14 @@ padding: 0;
   
 
   }
+  .sci-title{
+    margin-left: 50px;
+    color: orange;
+    font-size: 40px;
+    text-transform: uppercase;
+  
+   
+  }
   .event-hero{
       width: 90% ;
       margin: auto;
@@ -429,9 +531,7 @@ padding: 0;
   h5{
       font-size: 15px;
   }
-  .badge{
 
-  }
   p{
       font-size: 12px;
   }
@@ -441,5 +541,6 @@ padding: 0;
         text-align: justify;
         padding: 20px;
       }
+  
   
 }
