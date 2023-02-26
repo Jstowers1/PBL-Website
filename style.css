@@ -25,7 +25,7 @@
 
 .hero{
   height: 650px;
-  background-image: url(iphone.jpg);
+  background-image: url(./images/iphone.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
