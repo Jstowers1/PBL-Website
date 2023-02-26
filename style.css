@@ -178,6 +178,27 @@ flex-wrap: wrap;
   overflow-wrap: break-word;
   flex: 50%;
 }
+.model-img-list{
+  display: flex;
+  width:980px;
+  height:320px;
+  margin: auto;
+  overflow: hidden;
+  border-top: none;
+    -webkit-box-shadow: 0 8px 40px 0 rgba(45, 57, 231, 0.37);
+            box-shadow: 0 8px 40px 0 rgba(45, 57, 231, 0.37);
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-bottom: 1px solid blueviolet;
+  color:white;
+  padding-bottom: 20px;
+}
+.model-img{
+  margin-top: 20px;
+  inline-size: 50px;
+  overflow-wrap: break-word;
+  flex: 50%;
+}
 iHead{
   margin-top: 20px;
   writing-mode: vertical-rl;
@@ -292,6 +313,7 @@ h4{
 .contact-list{
   margin-top: 15px !important;
   color: white;
+  justify-content: center;
 }
 h5{
   color:white;
@@ -442,12 +464,14 @@ padding: 0;
   }
   .contact-list{
       width: 300px;
+      justify-content: center;
   }
   .contact{
-      justify-content: space-around;
+      justify-content: center;
   }
   .contact-list p{
       font-size: 14px ;
+      justify-content: center;
 
   }
   h5{
@@ -523,9 +547,11 @@ padding: 0;
       padding:25px;
       border:1px solid rgba(49, 45, 45, 0.5);
       border-radius: 10px;
+      justify-content: center;
   }
   .contact-list p{
       font-size: 12px ;
+      justify-content: center;
 
   }
   h5{

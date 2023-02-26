@@ -11,6 +11,7 @@
     <title>The Apple STEM</title>
       <style>
         div.science{
+          text-align: center;
           background-color: rgba(255, 75, 255, 0.1);
         }
       </style>
@@ -21,6 +22,30 @@
           text-align: center;
         }
       </style>
+      <style>
+        div.citations{
+          background-color: rgba(255, 75, 255, 0.1);
+          height: 640px;
+          width: 900px;
+          text-align: center;
+        }
+      </style>
+      <style>
+        div.infographic{
+          text-align: center;
+          background-color: rgba(255, 75, 255, 0.1);
+          height:750px;
+        }
+      </style>
+
+      <style>
+        div.timeline{
+          text-align: center;
+          background-color: rgba(255, 75, 255, 0.1);
+          height:718px;
+        }
+      </style>
+
       <style = "imageScroll">
         /* width */
       ::-webkit-scrollbar {
@@ -57,7 +82,9 @@
         <div >
           <a href="#science" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Science</a>
           <a href="#math" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Math</a>
+          <a href="#infographic" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">infographic</a>
           <a href="#improve" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Improvments</a>
+          <a href="#timeline" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Timeline</a>
           <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Citations</a>
         </div>
     
@@ -67,7 +94,9 @@
       <div id="navDemo" class="w3-bar-block  w3-hide w3-hide-large w3-hide-medium w3-large">
         <a href="#science" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Science </a>
         <a href="#math" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Math</a>
+        <a href="#infographic" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">infographic</a>
         <a href="#improve" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Improvments</a>
+        <a href="#timeline" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Timeline</a>
         <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Citations</a>
       </div>
     </div>
@@ -141,10 +170,10 @@
           </div>
           <div class="game-store-list">
             <div class="game-image">
-              <img src="./images/accSens.png" alt="Photo by Alienware | Unsplash"/>
+              <img src="./images/screen.png" alt="Photo by Alienware | Unsplash"/>
             </div>
             <div class="store-text-description">
-              <h4>Ceramnic Shield</h4>
+              <h4>Ceramic Shield</h4>
               <span> Growing nanocrystles for stronger glass. </span>
               <span>In order to give the iPhone it's remarcably strong screen, ceramnic nanocrystles were grown in the glass for extra durability.</span>
             </div>
@@ -172,8 +201,30 @@
           </div>
         </div>
 
+        <div class="science" style="position: relative; ">
+             <h1 class="event-title">MATHMATICAL MODEL OF SINUSUDIAL MOTION.</h1>
+             <div class="model-img-list">
+              <div class="model-img">
+                <img style = "vertical-align: middle;" src="./images/phoneModel.png"/>
+              </div>
+              <div class="model-img">
+                <span4>This is a physical model of the iphone 2G with a ball-bearing toy that represents the scrollbar.</span4><br>
+                <span4>The model with the toy is able to present the speed of the scrollbar in a mechanical, physical way.</span4>
+              </div>
+            </div>
+            
+        </div>
+
       </div>
 
+      <h2 class = "title">Infographic</h2>
+      <div class="infographic" id="infographic">
+        <div class = "infographic">
+          <div class><h1 class="sci-title">SCIENCE AND MATHMATIC VISUAL.</h1></div>
+          <iframe src="./pdfs/infographic.pdf" width="50%" height="600px">
+          </iframe>
+      </div>
+      </div>
 
       <div class="improve" id="improve">
         <h2 class = "title">Our improvments</h2>
@@ -226,26 +277,26 @@
         </div>
       </div>
       <div>
+      
+      <h2 class = "title">Timeline</h2>
+      <div class="timeline" id="timeline">
+        <div class = "timelione">
+          <div class><h1 class="sci-title">A TIMELINE OF THE IPHONE.</h1></div>
+          <iframe src="./pdfs/timeline.pdf" width="50%" height="600px">
+          </iframe>
+      </div>
+      </div>
 
-      <h2 class="title">Reach out to us</h2>
+
+
+      <h2 class="title">CITATIONS</h2>
       <div class="contact" id="contact" style="padding-bottom: 10px !important;">
-      <div class="contact-list contact-address"  >
-        <h5><span><i class="fa fa-map-marker w3-xlarge w3-text-light-grey"></i></span>E-Mail</h5>
-        <p>Jstowers4187@stu.neisd.net </p>
-        <p>bgebrezgi2864@stu.neisd.net </p>
-        <p>dquijano9190@stu.neisd.net </p>
-        <p>mkhan7698@stu.neisd.net </p>
-        <p>beaton5817@stu.neisd.net </p>
-        <p>spope2240@stu.neisd.net </p>
-        <br>
-        <p>j.stowers1@icloud.com </p>
-      </div>
-      <div class="contact-list">
+        <div class="citations">
+          <iframe src="./pdfs/citations.pdf" width="700px" height="600px">
+          </iframe>
         </div>
-  
       </div>
-      <div class="contact-list" >
-      </div>
+      
 
       </div>
     </div>
