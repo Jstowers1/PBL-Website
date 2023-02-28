@@ -264,7 +264,7 @@ h4{
 .event-hero{
   display: flex;
   flex-wrap: wrap;
-  background: rgba(255, 75, 255, 0.1);
+  background: #e3c3e3;;
   justify-content: space-evenly;
   align-items: center;
   padding:50px;
