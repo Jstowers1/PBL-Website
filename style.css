@@ -161,7 +161,7 @@ flex-wrap: wrap;
 .improve-img-list{
   display: flex;
   width:980px;
-  height:320px;
+  height:280px;
   margin: auto;
   overflow: hidden;
   border-top: none;
@@ -182,8 +182,10 @@ flex-wrap: wrap;
 .model-img-list{
   display: flex;
   width:980px;
-  height:320px;
-  margin: auto;
+  height:300px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding: 20px;
   overflow: hidden;
   border-top: none;
     -webkit-box-shadow: 0 8px 40px 0 rgba(45, 57, 231, 0.37);
@@ -196,6 +198,7 @@ flex-wrap: wrap;
 }
 .model-img{
   margin-top: 20px;
+  padding: 20px;
   inline-size: 50px;
   overflow-wrap: break-word;
   flex: 50%;
