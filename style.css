@@ -249,6 +249,9 @@ iHead{
   background: rgba(0, 0, 0, 0.5);
 }
 
+ul#navigation .active {
+  font-weight: bold;
+} 
 
 .store-text-description{
    
@@ -571,6 +574,10 @@ padding: 0;
         text-align: justify;
         padding: 20px;
       }
-  
-  
+  span5{
+    font-size:20px;
+    color: rgba(255,255,255);
+  }
+
+
 }
