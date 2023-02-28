@@ -13,6 +13,7 @@
         div.science{
           text-align: center;
           background-color: rgba(255, 75, 255, 0.1);
+          height: fit-content+20px;
         }
       </style>
       <style>
@@ -25,7 +26,7 @@
       <style>
         div.citations{
           background-color: rgba(255, 75, 255, 0.1);
-          height: 640px;
+          height: 728px;
           width: 900px;
           text-align: center;
         }
@@ -34,7 +35,7 @@
         div.infographic{
           text-align: center;
           background-color: rgba(255, 75, 255, 0.1);
-          height:750px;
+          height:700px;
         }
       </style>
 
@@ -44,8 +45,7 @@
           background-color: rgba(255, 75, 255, 0.1);
           height:718px;
         }
-      </style>
-
+      </style
       <style = "imageScroll">
         /* width */
       ::-webkit-scrollbar {
@@ -60,7 +60,7 @@
        
       /* Handle */
       ::-webkit-scrollbar-thumb {
-        background: red; 
+        background: black; 
         border-radius: 10px;
       }
       
@@ -71,7 +71,7 @@
       </style>
 </head>
 
-<body>
+<body style = "background-color: white">
   <script src="myscripts.js"></script> 
   <header style="position: relative;">
 
@@ -82,7 +82,7 @@
         <div >
           <a href="#science" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Science</a>
           <a href="#math" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Math</a>
-          <a href="#infographic" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">infographic</a>
+          <a href="#infographic" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Infographic</a>
           <a href="#improve" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Improvments</a>
           <a href="#timeline" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Timeline</a>
           <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Citations</a>
@@ -94,7 +94,7 @@
       <div id="navDemo" class="w3-bar-block  w3-hide w3-hide-large w3-hide-medium w3-large">
         <a href="#science" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Science </a>
         <a href="#math" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Math</a>
-        <a href="#infographic" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">infographic</a>
+        <a href="#infographic" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Infographic</a>
         <a href="#improve" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Improvments</a>
         <a href="#timeline" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Timeline</a>
         <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Citations</a>
@@ -107,9 +107,9 @@
            <div class="hero-description">
              <div class="hero-text">
               <h1 class="hero-title">THE APPLE STEM - JUNIOR PBL</h1>
-              <p>
+              <pHead>
                 A junior 2023 PBL Presentation over the original smart phone, the iPhone 2G.
-              </p>
+              </pHead>
              </div>
               </span>
              </div>
@@ -255,7 +255,7 @@
                   <img style = "vertical-align: middle;" src="./images/sapGlass.png"/>
                 </div>
                 <div class="improve-img">
-                  <span4>To make the screen more durable on the iPhone, instead of growing ceramic nanocrystles, saphire nanocrystals should be grown instead. Saphire is much more scratch and shatter resistant than ceramnic, and would make the phone much more durable. This technology is currently being used in several watches, so upscaling productiion would be the only issue.</span4>
+                  <span4>To make the screen more durable on the iPhone, instead of growing ceramic nanocrystles, saphire nanocrystals should be grown instead. Saphire is much more scratch and shatter resistant than ceramnic, and would make the phone much more durable. This technology is currently being used in several watches, so upscaling production would be the only issue.</span4>
                 </div>
                 </div>
             </div>
@@ -292,6 +292,7 @@
       <h2 class="title">CITATIONS</h2>
       <div class="contact" id="contact" style="padding-bottom: 10px !important;">
         <div class="citations">
+          <div class><h1 class="sci-title">SEE OUR RESEARCH.</h1></div>
           <iframe src="./pdfs/citations.pdf" width="700px" height="600px">
           </iframe>
         </div>
